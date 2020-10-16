@@ -32,3 +32,8 @@ CONFIG_PATH = nodejs/config/config.json
 In order to create a snapshot of a simulation, click on the “Save” link at the bottom left of the simulator. Graph images are saved in the downloads directory while simulation snapshots are located in snapshots directory, which is located in the root directory of the project.
 
 The detailed specification behind the AAP plugin which this simulator was designed for is at [URL].
+
+### Requirements
+
+* node version: 9.11.2
+* npm version: 5.6.0
