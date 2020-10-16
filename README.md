@@ -1,9 +1,16 @@
-# Price compensation mechanism simulator
+# Automatic Adjustment Plugin (AAP) simulator
 
-The goal of this project is to validate proposed solution for price compensation in the ODN decentralized network. 
-Proposed solution presents configurable node plugin component which will automatically calculate the optimal λ on the network based on the node configuration in the ODN decentralized network.
+The Automatic Adjustment Plugin (AAP) simulator is used to validate the proposed solution outlined in [OT-RFC-06](https://github.com/OriginTrail/OT-RFC-repository/blob/main/RFCs/OT-RFC-06%20OriginTrail%20utility%20market%20automatic%20adjustment%20plugin.pdf).
+AAP is a configurable OriginTrail node plugin which will attempt to automatically calculate the optimal price (λ setting) on the network based on the service market of the ODN decentralized network.
 
-Company Website: https://tracelabs.io
+The simulator let's you create groups of DC and DH nodes with different settings and observe market equilibrium behavior. 
+
+The detailed specification behind the AAP plugin which this simulator was designed for is [here](https://github.com/OriginTrail/OT-RFC-repository/blob/main/RFCs/OT-RFC-06%20OriginTrail%20utility%20market%20automatic%20adjustment%20plugin.pdf).
+
+## Simulation snapshots
+
+Each simulation can be saved for later inspectin. In order to create a snapshot of a simulation, click on the “Save” link at the bottom left of the simulator. Graph images are saved in the downloads directory while simulation snapshots are located in snapshots directory, which is located in the root directory of the project.
+
 
 ## Installation
 Instructions for installation and configuration of the simulator
@@ -29,11 +36,27 @@ Env example:
 CONFIG_PATH = nodejs/config/config.json
 ```
 
-In order to create a snapshot of a simulation, click on the “Save” link at the bottom left of the simulator. Graph images are saved in the downloads directory while simulation snapshots are located in snapshots directory, which is located in the root directory of the project.
-
-The detailed specification behind the AAP plugin which this simulator was designed for is at [URL].
-
 ### Requirements
 
-* node version: 9.11.2
+* nodejs version: 9.11.2
 * npm version: 5.6.0
+
+
+## Contribute
+
+Apart from running simulations you can also directly contribute to this project. 
+Please follow the [contribution guidelines](https://docs.origintrail.io/en/latest/contribution-guidelines.html)
+
+### Useful links
+
+
+[OriginTrail website](https://origintrail.io)
+
+[OriginTrail documentation page](http://docs.origintrail.io)
+
+[OriginTrail Discord Group](https://discordapp.com/invite/FCgYk2S)
+
+[OriginTrail Telegram Group](https://t.me/origintrail)
+
+[OriginTrail Twitter](https://twitter.com/origin_trail)
+
