@@ -1,23 +1,22 @@
 {
-  "name": "utilities",
+  "name": "app-market-simulator-backend",
   "version": "1.0.0",
-  "description": "Utility scripts for ot-node and nOS",
-  "main": "show-usage.js",
+  "description": "The goal of the AAP simulator created by the core development team is to enable easy performing of market condition simulations to determine any flaws in the mechanism, validate the proposed system and to show malicious simulation results and verdict on the safety of the mechanism.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "payout-check": "node scripts/payout-check.js",
     "lint": "../node_modules/.bin/eslint --quiet migrations/ database/models/ modules/ .eslintrc.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OriginTrail/utilities.git"
+    "url": "git+https://github.com/OriginTrail/AAP-market-simulator.git"
   },
-  "author": "Kuki145",
+  "author": "TraceLabs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OriginTrail/utilities/issues"
+    "url": "https://github.com/OriginTrail/AAP-market-simulator/issues"
   },
-  "homepage": "https://github.com/OriginTrail/utilities#readme",
+  "homepage": "https://github.com/OriginTrail/AAP-market-simulator#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "body-parser": "^1.19.0",

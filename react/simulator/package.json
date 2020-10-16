@@ -1,5 +1,5 @@
 {
-  "name": "simulator",
+  "name": "app-market-simulator-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
