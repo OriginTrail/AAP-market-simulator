@@ -1,0 +1,15 @@
+node_modules
+.DS_Store
+.idea
+nodejs/.env
+system/*
+!system/.gitkeep
+!*.gitkeep
+test.*
+logs/*
+nodejs/package-lock.json
+react/simulator/package-lock.json
+database/system.db
+resources/*
+snapshots/*
+.env

@@ -1,0 +1,66 @@
+{
+  "tokenValue": 5,
+  "tokenWindow": 1,
+  "running": true,
+  "restart": false,
+  "save":false,
+  "nodeGroups": [
+    {
+      "id": "dc-uuid",
+      "name": "Normal DC nodes",
+      "type": "DC",
+      "number": 20,
+      "lambda": {
+        "mean": 50,
+        "variance": 20,
+        "distribution": "random"
+      },
+      "alpha": {
+        "mean": 1,
+        "variance": 0,
+        "distribution": "random"
+      },
+      "riskRange": {
+        "mean": 60,
+        "variance": 20,
+        "distribution": "random"
+      },
+      "maxLambda": {
+        "mean": 100,
+        "variance": 0,
+        "distribution": "random"
+      },
+      "offersProbability": {
+        "mean": 60,
+        "variance": 40,
+        "distribution": "random"
+      }
+    },
+    {
+      "id": "dh-uuid",
+      "name": "Normal DH nodes",
+      "type": "DH",
+      "number": 200,
+      "lambda": {
+        "mean": 40,
+        "variance": 10,
+        "distribution": "random"
+      },
+      "refreshRate": {
+        "mean": 100,
+        "variance": 50,
+        "distribution": "random"
+      },
+      "epsilon": {
+        "mean": 50,
+        "variance": 40,
+        "distribution": "random"
+      },
+      "minLambda": {
+        "mean": 10,
+        "variance": 0,
+        "distribution": "random"
+      }
+    }
+  ]
+}

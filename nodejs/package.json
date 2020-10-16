@@ -1,0 +1,39 @@
+{
+  "name": "utilities",
+  "version": "1.0.0",
+  "description": "Utility scripts for ot-node and nOS",
+  "main": "show-usage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "payout-check": "node scripts/payout-check.js",
+    "lint": "../node_modules/.bin/eslint --quiet migrations/ database/models/ modules/ .eslintrc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OriginTrail/utilities.git"
+  },
+  "author": "Kuki145",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OriginTrail/utilities/issues"
+  },
+  "homepage": "https://github.com/OriginTrail/utilities#readme",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "express": "^4.17.1",
+    "gaussian": "^1.1.0",
+    "lockfile": "^1.0.4",
+    "nodeplotlib": "^0.6.5",
+    "probability-node": "0.0.1",
+    "ps-node": "^0.1.6",
+    "sleep": "^6.3.0"
+  }
+}
