@@ -9,7 +9,7 @@ Company Website: https://tracelabs.io
 Instructions for installation and configuration of the simulator
 
 ```javascript
-git clone https://github.com/OriginTrail/lambda-simulator-private.git
+git clone https://github.com/OriginTrail/AAP-market-simulator.git
 ```
 
 Run backend simulator
@@ -28,3 +28,7 @@ Env example:
 ```javascript
 CONFIG_PATH = nodejs/config/config.json
 ```
+
+In order to create a snapshot of a simulation, click on the “Save” link at the bottom left of the simulator. Graph images are saved in the downloads directory while simulation snapshots are located in snapshots directory, which is located in the root directory of the project.
+
+The detailed specification behind the AAP plugin which this simulator was designed for is at [URL].
