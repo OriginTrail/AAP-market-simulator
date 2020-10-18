@@ -12,4 +12,3 @@ react/simulator/package-lock.json
 database/system.db
 resources/*
 snapshots/*
-.env
