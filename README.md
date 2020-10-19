@@ -21,14 +21,14 @@ git clone https://github.com/OriginTrail/AAP-market-simulator.git
 
 Run backend simulator
 ```javascript
-cd nodejs && npm install
-node index.js
+cd nodejs && npm install && cd ..
+node nodejs/index.js
 ```
 
 Run frontend interface
 ```javascript
-cd react/simulator && npm install
-npm start
+cd react/simulator && npm install && cd ../..
+npm start --prefix react/simulator
 ```
 
 Env example:
